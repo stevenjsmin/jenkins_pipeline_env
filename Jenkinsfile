@@ -8,5 +8,6 @@ node {
    echo 'If this had been a real project, you might use environment variables to configure a portion of your Jenkins run'
    echo 'that you did not want to commit to source because every Jenkins server should run it differently'
    echo 'notice that this fails to echo JAVA_HOME ${env.JAVA_HOME} due to single quotes'   
-   echo "JAVA_HOME is ${env.JAVA_HOME} on this machine"   
+   echo "JAVA_HOME is ${env.JAVA_HOME} on this machine"
+
 }
